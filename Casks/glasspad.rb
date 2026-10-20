@@ -16,8 +16,8 @@
 # 注意：这只解决 Gatekeeper。**完全磁盘访问仍需用户手动授予**，
 # 且它绑在签名证书上而不是某个构建上，授予一次之后升级不会失效。
 cask "glasspad" do
-  version "1.0.310"
-  sha256 "de6f629162ceaf535fbe8bda99915a1f77eaff881e5122c59a449d6ebdec9e51"
+  version "1.0.420"
+  sha256 "346be2e5d1312283bd44d794b38e47730faa2c790f8372cb82f6077027db3a4e"
 
   url "https://github.com/anson55sky/GlassPad/releases/download/v#{version}/GlassPad-#{version}.dmg",
       verified: "github.com/anson55sky/GlassPad/"
